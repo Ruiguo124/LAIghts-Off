@@ -25,23 +25,8 @@ countC = 0
 meanP = []
 meanC = []
                       
-
 Arduino_Serial = serial.Serial('/dev/ttyACM1',9600) 
 
-
-
-    
-       
-
-       
-    
-        
-       
-
-   
-        
-    
-       
 while(True):
     
     ret,frame = cap.read()

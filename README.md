@@ -1,3 +1,9 @@
+# Usage
+
+This project uses the darkflow project that translate the darknet neural network framework to tensorflow. So you need to install the darkflow module by visiting this github page : https://github.com/thtrieu/darkflow . We are using Yolov2 to detect objects. 
+
+You need python 3.6, an arduino board, and the pyserial python module. 
+
 # Problématique et Thème
 La pollution lumineuse change le rythme circadien et selon les docteurs chez WHO et AMA, ce changement est classifié comme étant un fort cancérogène, augmente le risque de dépression et d'obésité. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4593354/
 
@@ -17,7 +23,7 @@ On a pas eu assez de temps pour obtenir un plus gros sample size pour notre CNN.
 # Commercialisation/Marketing
 Non seulement notre projet réduit la pollution lumineuse (population plus en santé), cela réduit la consommation électrique de la ville.
 
-Ce qu'on a apprit YOLOv2, obtenir notre propre data avec Google, CNN avec TensorFlow et le travail d'équipe. L'analyse d'objet est une tâche qui requière une grande puissance numérique.
+Ce qu'on a apprit : Darknet avec YOLOv2, obtenir nos propre données avec Google, CNN avec TensorFlow et le travail d'équipe. L'analyse d'objet est une tâche qui requière une grande puissance numérique.
 
 # À suivre
 On veux accroître notre algorithme pour gérer les feux de circulations selon le traffic.
